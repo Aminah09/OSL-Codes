@@ -22,8 +22,8 @@ process uses EXECVE system callto load new program which display array in revers
 Implement the C program for CPU Scheduling Algorithms: Shortest Job First
 (Preemptive) and Round Robin with different arrival time.<br>
 ### Assignment No. 4:<br>
-A. Thread synchronization using counting semaphores. Application to demonstrate: producerconsumer problem with counting semaphores and mutex.<br>
-B. Thread synchronization and mutual exclusion using mutex. Application to demonstrate: ReaderWriter problem with reader priority.<br>
+A. Thread synchronization using counting semaphores. Application to demonstrate: producer-consumer problem with counting semaphores and mutex.<br>
+B. Thread synchronization and mutual exclusion using mutex. Application to demonstrate: Reader-Writer problem with reader priority.<br>
 ### Assignment No. 5:<br>
 Implement the C program forDeadlock Avoidance Algorithm: Bankers Algorithm.<br>
 ### Assignment No. 6:<br>
