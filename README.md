@@ -1,5 +1,5 @@
 # OSL-Codes
-SPPU Second Year IT Object Oriented Programming Lab Assignments
+SPPU Third Year IT Object Oriented Programming Lab Assignments
 
 ## List of Assignments
 ### Assignment No. 1 : <br>
