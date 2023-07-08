@@ -1,0 +1,40 @@
+ OUTPUT:-
+
+myworld@myworld-Vostro-15-3568:~/Desktop$ gcc fifo.c 
+myworld@myworld-Vostro-15-3568:~/Desktop$ ./a.out
+
+
+Enter a sentence ending with 0:
+shital patil0
+
+First Message recieved: shital patil0 
+
+ total characters=12
+
+ total words=2
+
+ total lines=1
+
+Successful writing in second pipe..!
+myworld@myworld-Vostro-15-3568:~/Desktop$ ./a.out
+
+
+Enter a sentence ending with 0:
+hii
+bvcoew
+IT0
+
+First Message recieved: hii
+bvcoew
+IT0 
+
+ total characters=12
+
+ total words=3
+
+ total lines=3
+
+Successful writing in second pipe..!
+myworld@myworld-Vostro-15-3568:~/Desktop$  
+
+

@@ -1,0 +1,43 @@
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ gcc fork.c
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ ./a.out
+
+PARENT: My process-id is 2694.
+
+Enter the number of elements in the array: 6
+Enter 6 elements: 5
+33
+22
+61
+12
+2
+
+Forking now!
+
+CHILD: My process-id is 2695.
+CHILD: My parent's process-id is 2694.
+Sorted elements:  2 5 12 22 33 61
+CHILD: I am dying now
+-------------------------------------------------------
+CHILD: I am dying now
+-------------------------------------------------------
+
+
+PARENT: I am back. 
+PARENT: My process-id is 2694.
+PARENT: My child's process-id is 2695.
+Sorted elements:  2 5 12 22 33 61
+PARENT: I am dying now.
+-------------------------------------------------------
+0 T bvcoew    2588  2506  0  80   0 -   578 signal 22:05 pts/0    00:00:00 ./a.out
+0 S bvcoew    2694  2506  0  80   0 -   549 hrtime 22:08 pts/0    00:00:00 ./a.out
+1 S bvcoew    2695  2694  0  80   0 -   549 wait   22:08 pts/0    00:00:00 ./a.out
+0 S bvcoew    2697  2695  0  80   0 -   591 wait   22:08 pts/0    00:00:00 sh -c ps -elf | grep a.out
+0 S bvcoew    2699  2697  0  80   0 -  1276 pipe_w 22:08 pts/0    00:00:00 grep a.out
+PARENT: I am sleeping now.
+-------------------------------------------------------
+0 T bvcoew    2588  2506  0  80   0 -   578 signal 22:05 pts/0    00:00:00 ./a.out
+0 S bvcoew    2694  2506  0  80   0 -   549 wait   22:08 pts/0    00:00:00 ./a.out
+1 Z bvcoew    2695  2694  0  80   0 -     0 exit   22:08 pts/0    00:00:00 [a.out] <defunct>
+0 S bvcoew    2700  2694  0  80   0 -   591 wait   22:08 pts/0    00:00:00 sh -c ps -elf | grep a.out
+0 S bvcoew    2702  2700  0  80   0 -  1276 pipe_w 22:08 pts/0    00:00:00 grep a.out
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$

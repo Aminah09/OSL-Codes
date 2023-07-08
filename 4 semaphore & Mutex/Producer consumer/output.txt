@@ -1,0 +1,35 @@
+/* OUTPUT:-
+bvcoew@bvcoew-Lenovo:~$ cd Desktop
+bvcoew@bvcoew-Lenovo:~/Desktop$ cd shitalP41
+bvcoew@bvcoew-Lenovo:~/Desktop/shitalP41$ gcc producer.c -lpthread
+bvcoew@bvcoew-Lenovo:~/Desktop/shitalP41$ ./a.out
+
+Inside consumer
+ Inside Producer
+Item produced is 0
+ Item consumed is 0
+Item produced is 1
+Item produced is 2
+Item produced is 3
+Item produced is 4
+ Item consumed is 1
+Item produced is 5
+Item produced is 6
+Item produced is 7
+Item produced is 8
+Item produced is 9
+ Item consumed is 2
+The exited status produce
+ 
+
+ Item consumed is 3
+ Item consumed is 4
+ Item consumed is 5
+ Item consumed is 6
+ Item consumed is 7
+ Item consumed is 8
+ Item consumed is 9
+The exited status consumer 
+ 
+bvcoew@bvcoew-Lenovo:~/Desktop/shitalP41$ 
+*/

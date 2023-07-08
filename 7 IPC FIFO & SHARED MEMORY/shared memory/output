@@ -1,0 +1,16 @@
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ gcc shmserver.c -o server
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ gcc shmclient.c -o client
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ ./server
+key=1091048136
+Shared memory id created
+Shared memory id = 3964941
+Shared memory is attached
+data is not filled
+enter the text ending with #
+bharati vidyapeeth pune#
+bvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ ./client
+bharati vidyapeeth pune
+Client is reading the data 
+
+Terminatedbvcoew@bvcoew-Lenovo-Invalid-entry-length-16-Fixed-up-to-11:~$ 
+
